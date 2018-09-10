@@ -1,6 +1,7 @@
 import cv2
 
-filename = '/home/d3athmast3r/Pictures/vikings.jpg'
+#filename = '/home/d3athmast3r/Pictures/vikings.jpg'
+filename = '../images/vikings.jpg'
 
 def detect(filename):
   face_cascade = cv2.CascadeClassifier('./cascades/haarcascade_frontalface_default.xml')
