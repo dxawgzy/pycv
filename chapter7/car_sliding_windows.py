@@ -9,8 +9,10 @@ import urllib
 def in_range(number, test, thresh=0.2):
   return abs(number - test) < thresh
 
-test_image = "/home/d3athmast3r/dev/python/pycv/images/cars.jpg"
-img_path = "/home/d3athmast3r/dev/python/pycv/images/test.jpg"
+# test_image = "/home/d3athmast3r/dev/python/pycv/images/cars.jpg"
+# img_path = "/home/d3athmast3r/dev/python/pycv/images/test.jpg"
+test_image = "../images/cars.jpg"
+img_path = "../images/test.jpg"
 
 urllib.urlretrieve(test_image, img_path)
 

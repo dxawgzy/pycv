@@ -35,6 +35,7 @@ def feature_sift(fn):
   return extract.compute(im, detect.detect(im))[1]
 
 basepath = "/home/d3athmast3r/dev/python/study/images/"
+basepath = "../images/"
 
 images = ["bb.jpg",
 "beans.jpg",
