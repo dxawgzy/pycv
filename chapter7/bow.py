@@ -34,7 +34,7 @@ def feature_sift(fn):
   im = cv2.imread(fn,0)
   return extract.compute(im, detect.detect(im))[1]
 
-basepath = "/home/d3athmast3r/dev/python/study/images/"
+# basepath = "/home/d3athmast3r/dev/python/study/images/"
 basepath = "../images/"
 
 images = ["bb.jpg",
