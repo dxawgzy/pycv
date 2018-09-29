@@ -3,7 +3,8 @@ import numpy as np
 
 knn = cv2.createBackgroundSubtractorKNN(detectShadows = True)
 es = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (20,12))
-camera = cv2.VideoCapture("/home/d3athmast3r/Downloads/traffic.flv")
+# camera = cv2.VideoCapture("/home/d3athmast3r/Downloads/traffic.flv")
+camera = cv2.VideoCapture("./surveillance_demo/traffic.flv")
 
 def drawCnt(fn, cnt):
   if cv2.contourArea(cnt) > 1400:
